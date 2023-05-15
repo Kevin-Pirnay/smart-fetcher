@@ -1,39 +1,3 @@
-/*
-    TODO:
-        -regulate code and store hosts
-        -make a common request and guide by path -> keywords & url
-        -give a template and test with a loss fuction if he found the good one
-            -html page //rtb
-            -data in json //nasdaq
-
-                -store url and store result
-
-        file needed: etc/hosts/name etc/template/template-common-request var/project-name/path_lead var/project-name/template_target var/project-name/store/index-result/url&data&meta-data-result
-
-        keep track of the progress and make sure to have a good strategy to check for failure and resume the process
-
-    TEST:
-        -connect with server
-        -call dns if needed
-        -tls handshake -> verify if init is really requested
-        -make and send common request
-        -try to navigate using the path lead file -> allow several possibilities -> tree structure
-        -try link and compute loss function foreach of them -> challenge post request with body
-        -keep result that are above a threshold
-        -design a system to keep track of failure and resume of the process and make a sumary of meta data
-
-        -compute general trend
-        -make dicrionary
-        -assign score to words according to the trend
-        -compute loss function and extends state
-        -monitor result
-
-        -make the ui
-
-    WARNING:
-        -for the global project, monitor the forecast if a new article appear and try to find a way to extends the actual state according to a loss function
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
