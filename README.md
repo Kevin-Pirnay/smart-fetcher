@@ -1,2 +1,2 @@
 # smart-fetcher
-A simple test to fetch data in an autonomous way for my need
+A simple test to fetch data in an autonomous way for my need and implementation ssl
